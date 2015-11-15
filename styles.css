@@ -16,23 +16,23 @@ section{
   margin: 30px;
 }
 
-h2{
-  margin-left:  10px;
-}
-
-h1{
+h2, h4{
   margin-left: 20px;
 }
 
 .boxes{
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   border: black solid 1px;
   float: left;
   margin: 20px;
-  padding: 50px;
+  padding: 0px 10px 10px 10px;
   display: inline-block;
   box-sizing: border-box;
+}
+
+img{
+ padding-left: 30px;
 }
 
 .boxes:first-of-type{
@@ -45,6 +45,17 @@ li a{
   font-size: 20px;
   line-height: 30px;
 }
+
 li{
   list-style: none;
+  padding: 5px 5px;
+}
+
+p{
+  font-weight: 600;
+}
+
+ul {
+    margin:0;
+    padding: 10px;
 }

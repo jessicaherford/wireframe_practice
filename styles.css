@@ -1,26 +1,22 @@
-aside{
+aside {
   float: left;
   border: black solid 1px;
   width: 15%;
   height: 500px;
   margin: 20px;
 }
-
-body{
+body {
   width: 100%;
   heigth: 100%;
 }
-
-section{
+section {
   width: 85%;
   margin: 30px;
 }
-
-h2, h4{
+h2, h4 {
   margin-left: 20px;
 }
-
-.boxes{
+.boxes {
   height: 160px;
   width: 160px;
   border: black solid 1px;
@@ -30,32 +26,27 @@ h2, h4{
   display: inline-block;
   box-sizing: border-box;
 }
-
-img{
- padding-left: 30px;
+img {
+  padding-left: 30px;
 }
-
-.boxes:first-of-type{
+.boxes:first-of-type {
   margin-left: 0px;
 }
-li a{
+li a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
 }
-
-li{
+li {
   list-style: none;
   padding: 5px 5px;
 }
-
-p{
+p {
   font-weight: 600;
 }
-
 ul {
-    margin:0;
-    padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
